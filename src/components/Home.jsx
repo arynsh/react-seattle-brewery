@@ -14,7 +14,7 @@ var imgStyling =
   }
 var boxStyling =
 {
-  backgroundColor: 'rgba(118,108,108, 0.5)',
+  backgroundColor: 'rgba(180,100,104, 0.35)',
   margin: '0',
   position: 'absolute',
   top: '50%',
