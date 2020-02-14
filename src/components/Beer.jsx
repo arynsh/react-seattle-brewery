@@ -11,6 +11,7 @@ function Beer(props) {
         `}</style> */}
       <h3>{props.name} - {props.alcoholContent}</h3>
       <p><em>{props.brand}</em></p>
+      <p>{props.location}</p>
       <p>${props.price}</p>
       <hr />
     </div>
@@ -20,6 +21,7 @@ function Beer(props) {
 Beer.propTypes = {
   name: PropTypes.string.isRequired,
   brand: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   alcoholContent: PropTypes.string,
   price: PropTypes.number
 };
