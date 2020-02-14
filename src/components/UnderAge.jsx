@@ -1,9 +1,15 @@
 import React from 'react';
 
+var UnderAgeStyling= 
+  {
+    textAlign: 'center',
+    fontFamily: 'didot'
+  }
+
 function UnderAge() {
     return (
         <div>
-            <h2>Sorry, come back when you're at least 21!</h2>
+            <h3 style={UnderAgeStyling}>Sorry, come back when you're at least 21!</h3>
         </div>
     );
 }

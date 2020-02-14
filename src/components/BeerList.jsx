@@ -1,6 +1,11 @@
 import React from 'react';
 import Beer from './Beer';
 
+var BeerListStyling=
+  {
+    fontFamily: 'didot'
+  }
+
 var masterBeerList = [
   {
     name: 'Mango Sour',
@@ -24,7 +29,7 @@ var masterBeerList = [
 
 function BeerList() {
   return (
-    <div>
+    <div style={BeerListStyling}>
       {masterBeerList.map((beer, index) =>
         <Beer 
           name={beer.name}

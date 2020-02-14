@@ -2,12 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import { Switch, Route } from 'react-router-dom';
 
+var homeStyling= 
+  {
+    textAlign: 'center',
+    fontFamily: 'didot'
+  }
+
 function Home() {
     return (
       <div>
-       <p>You reached the homepage. Go you.
+       <p style={homeStyling}>You reached the homepage. Go you.
        Are you at least 21 years of age?</p>
-       <Link to='/UnderAge'>No</Link> | <Link to='/BeerList'>Yes</Link>
+       <p style={homeStyling}><Link to='/UnderAge'>No</Link> | <Link to='/BeerList'>Yes</Link></p>
       </div>
     );
   }
