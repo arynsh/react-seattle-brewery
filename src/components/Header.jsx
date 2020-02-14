@@ -12,6 +12,7 @@ var linkStyleLeft =
     color: 'black',
     paddingLeft: '102px',
     float: 'left',
+    // textDecoration: 'none',
     fontSize: '16px',
     fontFamily: 'didot'
   }
@@ -21,6 +22,7 @@ var linkStyleRight =
     color: 'black',
     marginTop: '-53px',
     paddingRight: '130px',
+    // textDecoration: 'none',
     float: 'right',
     fontSize: '16px',
     fontFamily: 'didot'

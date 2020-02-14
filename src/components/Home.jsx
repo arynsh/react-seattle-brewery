@@ -7,11 +7,13 @@ var homeStyling =
     textAlign: 'center',
     fontFamily: 'didot'
   }
+
 var imgStyling = 
   {
     height: '800px',
     width: '1250px'
   }
+  
 var boxStyling =
 {
   backgroundColor: 'rgba(180,100,104, 0.35)',
