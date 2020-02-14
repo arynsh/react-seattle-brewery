@@ -14,6 +14,7 @@ function Header() {
     }
     `}</style>Seattle Brewery</h2>
     <Link to='/'>Home</Link> | <Link to='/BeerList'>See Our Beers!</Link> | <Link to='/Employee'>Employees</Link>
+    <hr/>
     </div>
   );
 }
