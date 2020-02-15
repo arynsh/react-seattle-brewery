@@ -12,7 +12,7 @@ function Beer(props) {
       <h3>{props.name} - {props.alcoholContent}</h3>
       <p><em>{props.brand}</em></p>
       <p>{props.location}</p>
-      <p>${props.price}</p>
+      <p>${props.price} /pint</p>
       <hr />
     </div>
   );

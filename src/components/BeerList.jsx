@@ -29,22 +29,46 @@ var masterBeerList = [
     location:'Shi Shi Beach, Washington',
     alcoholContent: '8%',
     price: 8
+  },
+  {
+    name: 'Nordic Berry Cider',
+    brand: 'Kopparberg',
+    location:'Sweden',
+    alcoholContent: '4%',
+    price: 8
+  },
+  {
+    name: 'Blackberry Cider',
+    brand: 'Pescadero Cidery',
+    location:'Pescadero, California',
+    alcoholContent: '6%',
+    price: 9
   }
 ];
 
+var parent = 
+{
+  display: 'grid',
+  gridTemplateColumns: 'repeat(3, 1fr)',
+  gridTemplateRows: 'repeat(2, 1fr)',
+  gridColumnGap: '0px',
+  gridRowGap: '0px'
+}
+
 function BeerList() {
   return (
-    <div style={BeerListStyling}>
-      {masterBeerList.map((beer, index) =>
-        <Beer 
-          name={beer.name}
-          brand={beer.brand}
-          location={beer.location}
-          alcoholContent={beer.alcoholContent} 
-          price={beer.price}
-          key={index} />
-      )}
-    </div>
+
+      <div style={BeerListStyling}>
+        {masterBeerList.map((beer, index) =>
+          <Beer 
+            name={beer.name}
+            brand={beer.brand}
+            location={beer.location}
+            alcoholContent={beer.alcoholContent} 
+            price={beer.price}
+            key={index} />
+        )}
+       </div>
   );
 }
 

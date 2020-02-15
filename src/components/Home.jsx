@@ -13,7 +13,7 @@ var imgStyling =
     height: '800px',
     width: '1250px'
   }
-  
+
 var boxStyling =
 {
   backgroundColor: 'rgba(180,100,104, 0.35)',
@@ -35,7 +35,7 @@ function Home() {
        <div style={boxStyling}>
                 <h1 class="title">
                     {/* Welcome */}
-                    <p>You reached the homepage. Go you.</p>
+                    <p>You've reached the homepage. Go you.</p>
                     <p> Are you at least 21 years of age?</p>
                 </h1>
                 <p style={homeStyling}><Link to='/UnderAge'>No</Link> | <Link to='/BeerList'>Yes</Link></p>
